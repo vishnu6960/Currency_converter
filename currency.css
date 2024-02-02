@@ -1,0 +1,252 @@
+.div-1{
+    height: 260px;
+    width: 90%;
+    border-radius: 4px;
+    margin-top: 5%;
+    margin-left:5%;
+    margin-right:10%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(184, 96, 189);
+    border-bottom: rgb(255, 255, 255);;
+    display: flex;
+    
+}
+h1{
+    color: rgb(255, 254, 254);
+}
+.body{
+    text-align: center;
+    background-color: rgb(207, 182, 208);
+    
+}
+h2{
+    text-align: center;
+   padding-left: 20px;
+}
+#amount{
+
+    margin-left: 5%;
+    height: 30px;
+    width:90%;
+    border:1px solid rgb(165, 165, 220);
+}
+#from{
+    margin-left: 5%;
+    width: 90%
+}
+#to{
+    margin-left: 5%;
+    width: 90%
+
+}
+.div-1-1{
+    height: 180px;
+    width:30%;
+    margin-top: 40px;
+    margin-left: 3%;
+    margin-right: 5%;
+    /* border: 1px solid black; */
+    background-color: rgb(253, 220, 159);
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+select{
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid rgb(165, 165, 220);
+    
+}
+button{
+    align-self: center;
+    height: 40px;
+    margin-left: 0%;
+    margin-top: 5px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(77, 165, 215);
+    width: 150px;
+    border-radius: 4px;
+    font-size: 19px;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.div-1-2{
+    width: 90%;
+    margin-left:5%;
+    margin-right:10%;
+    height: 130px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(184, 96, 189);
+    border-top: rgb(255, 255, 255);;
+}   
+#output{
+    margin-left: 3px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+#input{
+    margin-left: 0%;
+    /* margin-right: 5%; */
+    font-size: 20px;
+    width: 11%;
+    /* border: 1px solid black; */
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30;
+    font-size: 40px;
+}
+#spanstyle{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 0%;
+    /* border: 1px solid black; */
+    /* background-color:  rgb(77, 165, 215); */
+}
+@media (min-width:480px) and (max-width: 850px) {
+    h1{
+        color: rgb(255, 255, 255);
+    }
+    .body{
+        background-color: rgb(225, 143, 229);
+    }
+    .div-1{
+        height: 200px;
+        width: 95%;
+        border-radius: 4px;
+        margin-top: 5%;
+        margin-left:1%;
+        margin-right: 1%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        
+    }
+    .div-1-1{
+
+        width: 30%;
+        border: 1px solid black;
+        /* background-color: rgb(255, 255, 255); */
+        height: 200px;
+    }
+    #amount{
+
+        margin-left: 5%;
+        margin-bottom: 2px;
+        height: 25px;
+        width:80%;
+        border:1px solid rgb(165, 165, 220);
+    }
+    #from{
+        margin-left: 5%;
+        width: 80%;
+        height: 25px;
+    }
+    #to{
+        margin-left: 5%;
+        width: 80%;
+        height: 25px;
+    }
+    h1{
+        margin-left: 50px;
+    }
+    .div-1-2{
+        width: 95%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 180px;
+        background-color: rgb(255, 255, 255);
+    }
+    button{
+        color: white;
+        background-color: rgb(77, 165, 215);
+        border-radius: 4px;
+        font-size: 15px;
+        margin-top: 30px;
+        border: 1px solid rgb(255, 255, 255);
+        margin-left: 0%;
+    }
+    .div-1-1{
+        height: 100px;
+        margin-top: 60px;
+        width: 200px;
+        border: 1px solid rgb(255, 250, 250);
+    }
+    #input{
+        margin-left: 0%;
+    /* margin-right: 5%; */
+    font-size: 20px;
+    width: 11%;
+        /* margin-left: 5%; */
+    }
+    #spanstyle{
+        margin-top: 3%;
+        margin-left: 0%;
+        /* background-color:  rgb(77, 165, 215); */
+    }
+
+}
+@media screen and (max-width: 480px){
+    .body{
+        background-color: rgb(240, 203, 242);
+    }
+    h1{
+        color: black;
+    }
+    /* #amount{ */
+        /* font-size: 2px; */
+    /* } */
+    .div-1{
+    height: 350px;
+    width: 75%;
+    margin:auto;
+    display:grid;
+    background-color: rgb(255, 255, 255);
+    }
+    h1{
+       
+        font-size: 30px;
+        margin-left: 10px;
+       
+    }
+    h2{
+        font-size:20px;
+    }
+    .div-1-1{
+        height: 100px;
+        margin-top: 3px;
+        width: 93%;
+
+        border: 1px solid rgb(255, 250, 250);
+    }
+    .div-1-2{
+        width: 75%;
+        margin: 0px;
+        height: 120px;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+    }
+    button{
+    color: white;
+    background-color: rgb(77, 165, 215);
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 0%;
+    }
+    #output
+    {
+        margin-top: 20px;
+        margin-left: 1px;
+        font-size: 25px;
+    }
+    #input{
+        margin-left: 0%;
+        /* margin-right: 5%; */
+        font-size: 20px;
+        width: 11%;
+        /* font-size: 20px; */
+    }
+    
+}
