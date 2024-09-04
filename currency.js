@@ -11,7 +11,7 @@ function convert1(){
 	 const options = {
     method: 'GET',
     headers: {
-		'X-RapidAPI-Key': 'ad0c9c7bd0msh01ec56be200f01dp14e47ajsn69c552a045a5',
+		'X-RapidAPI-Key': 'f5adf660e9msh1aec9d97f216132p18a5e1jsnee41e6dd8e8f',
 		'X-RapidAPI-Host': 'currency-conversion-and-exchange-rates.p.rapidapi.com'
     }
   }; 
