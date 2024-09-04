@@ -3,6 +3,7 @@ function convert1(){
      var fromcurrency = document.getElementById("from").value
      var tocurrency = document.getElementById("to").value
      var oldamount = document.getElementById("amount").value
+	oldamount = oldamount.toFixed(4)
 
 	 //'https://currency-conversion-and-exchange-rates.p.rapidapi.com/convert?from='+fromcurrency+'&to='+tocurrency+'&amount='+oldamount
 
