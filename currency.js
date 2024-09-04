@@ -3,9 +3,9 @@ function convert1(){
      var fromcurrency = document.getElementById("from").value
      var tocurrency = document.getElementById("to").value
      var oldamount = document.getElementById("amount").value
-	  oldamount = Number(oldamount).toFixed(4)
-
-	 //'https://currency-conversion-and-exchange-rates.p.rapidapi.com/convert?from='+fromcurrency+'&to='+tocurrency+'&amount='+oldamount
+    //  console.log(typeof oldamount)
+	  oldamount = (Number(oldamount)).toFixed(4)
+    // console.log(oldamount)
 
      //var url = 'https://currency-converter-by-api-ninjas.p.rapidapi.com/v1/convertcurrency?have='+fromcurrency+'&want='+tocurrency+'&amount='+oldamount;
      var url =  'https://currency-conversion-and-exchange-rates.p.rapidapi.com/convert?from='+fromcurrency+'&to='+tocurrency+'&amount='+oldamount
